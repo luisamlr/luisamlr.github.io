@@ -171,7 +171,7 @@
 									else
 										window.location.href = href;
 
-								}, config.delay + 10);
+								}, config.delay + 1);
 
 						});
 
