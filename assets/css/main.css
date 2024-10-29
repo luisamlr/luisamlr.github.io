@@ -2831,23 +2831,23 @@ input, select, textarea {
 			}
 
 			.tiles article:nth-child(6n - 5):before {
-				background-color: #6fc3df; /*turquoise 
+				background-color: #6fc3df; /*turquoise*/
 			}
 
 			.tiles article:nth-child(6n - 4):before {
-				background-color: #8d82c4; /*purple
+				background-color: #8d82c4; /*purple*/
 			}
 
 			.tiles article:nth-child(6n - 3):before {
-				background-color: #e7b788; /*orange
+				background-color: #e7b788; /*orange*/
 			}
 
 			.tiles article:nth-child(6n - 2):before {
-				background-color: #87c5a4; /*green
+				background-color: #87c5a4; /*green*/
 			}
 
 			.tiles article:nth-child(6n - 1):before {
-				background-color: #8ea9e8; /*blue
+				background-color: #8ea9e8; /*blue*/
 			}
 
 			.tiles article:nth-child(6n):before {
@@ -3259,27 +3259,27 @@ input, select, textarea {
 		}
 
 			#header.alt.style1 .logo strong {
-				color: #6fc3df; /*turquoise
+				color: #6fc3df; /*turquoise*/
 			}
 
 			#header.alt.style2 .logo strong {
-				color: #8d82c4; /*purple
+				color: #8d82c4; /*purple*/
 			}
 
 			#header.alt.style3 .logo strong {
-				color: #e7b788; /*orange
+				color: #e7b788; /*orange*/
 			}
 
 			#header.alt.style4 .logo strong {
-				color: #87c5a4; /*green
+				color: #87c5a4; /*green*/
 			}
 
 			#header.alt.style5 .logo strong {
-				color: #8ea9e8; /*blue
+				color: #8ea9e8; /*blue*/
 			}
 
 			#header.alt.style6 .logo strong {
-				color: #ec8d81; /*salmon
+				color: #ec8d81; /*salmon*/
 			}
 
 		body.is-preload #header.alt {
