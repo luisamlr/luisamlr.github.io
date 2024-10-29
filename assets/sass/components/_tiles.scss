@@ -103,9 +103,9 @@
 				opacity: 0;
 			}
 
-			&:nth-child(5) {
-            			width: 100%; // Make the fifth article span full width
-            			margin: 0 auto;
+			&:nth-child(6n-1) {
+            			width: 100%; /* Make the fifth article span full width */
+            			/* margin: 0 auto;*/
 
             			/* // Optionally, adjust padding or other styling for a more centered look */
             			/* @include padding(4em, 0); // Modify padding as needed */
@@ -161,17 +161,17 @@
 		            min-height: 20em;
 		        }
 		        article:nth-child(5) {
-		            width: 100%; // Ensure the fifth article stays full-width on large screens
+		            width: 100%; /* Ensure the fifth article stays full-width on large screens */
 		            @include padding(4em, 0);
 		        }
 		    }
 		
 		@include breakpoint('<=medium') {
 		        article {
-		            width: 50% !important; // Default for medium screens
+		            width: 50% !important; /* Default for medium screens */
 		        }
 		        article:nth-child(5) {
-		            width: 100% !important; // Fifth article full-width override
+		            width: 100% !important; /* Fifth article full-width override */
 		        }
 		    }
 		
@@ -187,7 +187,7 @@
 		        }
 		        article:nth-child(5) {
 		            width: 100% !important;
-		            @include padding(3em, 1em); // Adjust padding for small screens
+		            @include padding(3em, 1em); /* Adjust padding for small screens */
 		        }
 		    }
 		
@@ -198,7 +198,7 @@
 		            width: 100% !important;
 		        }
 		        article:nth-child(5) {
-		            width: 100% !important; // Ensure full width on extra-small screens
+		            width: 100% !important; /* Ensure full width on extra-small screens */
 		        }
 		    }
 		}
